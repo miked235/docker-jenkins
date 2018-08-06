@@ -50,4 +50,4 @@ RUN install-plugins.sh \
     build-user-vars-plugin \
     ws-cleanup 
 
-USER jenkins
+USER ${user}
