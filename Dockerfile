@@ -4,7 +4,7 @@ FROM jenkins/jenkins:lts
 USER root
 
 RUN apt-get update && \
-	apt-get -y install apt-transport-https \
+	apt-get -y install apt-transport-https jq \
 	ca-certificates \
 	curl \
 	gnupg2 \
