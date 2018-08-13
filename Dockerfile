@@ -31,7 +31,6 @@ RUN install-plugins.sh \
     blueocean \ 
     build-timeout \ 
     docker \
-    docker-slaves \
     email-ext \
     envinject \
     google-container-registry-auth \
